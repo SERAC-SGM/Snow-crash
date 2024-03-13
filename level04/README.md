@@ -2,8 +2,8 @@
 
 This time we have a perl script ran as flag04.
 
-	\#!/usr/bin/perl
-	\# localhost:4747
+	#!/usr/bin/perl
+	# localhost:4747
 	use CGI qw{param};
 	print "Content-type: text/html\n\n";
 	sub x {
