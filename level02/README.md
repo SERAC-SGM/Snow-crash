@@ -1,4 +1,4 @@
-#level02
+# Level02
 
 This time, we have a .pcap file in the home directory. This is a packet capture file. We can use wireshark to open it.
 

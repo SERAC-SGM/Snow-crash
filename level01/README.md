@@ -1,4 +1,4 @@
-#Level01
+# Level01
 
 Once again, empty home directory. No file owned by flag01 this time.
 However when looking at /etc/password, we have access to flag01's hashed password

@@ -1,4 +1,4 @@
-#level03
+# Level03
 
 We have an executable located in the home directory
 
@@ -30,7 +30,7 @@ Here is the source code :
 	}
 
 We can see that the call to echo isn't done with the full path and instead relies on the $PATH environment variable. We can exploit this by creating our own echo binary and make it run a shell.
-Since this binary is ran as flag03, the shell will belong to flag03 and we will be able to run getflag.
+Since this binary is run as flag03, the shell will belong to flag03 and we will be able to run getflag.
 
 	level03@SnowCrash:~$ echo "/bin/bash" > /tmp/echo; chmod +x /tmp/echo
 	
